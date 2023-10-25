@@ -1,20 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
 Body {
-    background-color: bisque;
+  background-color: bisque;
 }
 
 h1 {
-    color: blueviolet;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #4f4785;
 }
 
 .container {
-    background-color: grey;
-    padding: 0 20%;
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
 }
-
-.ingredients {
-    color: aliceblue;
+.recipe_image {
+  max-width: 500px;
 }
-
-.steps {
-    color: brown;
+.recipe {
+  font-family: "Courier New", Courier, monospace;
+  background-color: white;
+  color: #656272;
+  padding: 10px 40px;
+  max-width: 80%;
+  max-height: 60%;
+}
+.back_button {
+  margin: 40px 0px;
+}
+.back_button a {
+  color: white;
+  padding: 10px 20px;
+  background-color: #4f4785;
+  text-decoration: none;
 }
